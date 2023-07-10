@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "start": "serve dist"
@@ -21,6 +21,7 @@
     "react-router-dom": "^6.14.0",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
+    "serve": "^14.2.0",
     "three": "^0.153.0"
   },
   "devDependencies": {
